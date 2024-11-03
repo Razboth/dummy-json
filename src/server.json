@@ -1,0 +1,90 @@
+{
+  "Server": [
+    {
+      "id": 1,
+      "serverName": "AlphaNode01",
+      "ipAddresses": ["192.168.1.10", "10.0.0.5"],
+      "osType": "Linux"
+    },
+    {
+      "id": 2,
+      "serverName": "BetaHub22",
+      "ipAddresses": ["172.16.4.21"],
+      "osType": "Windows"
+    },
+    {
+      "id": 3,
+      "serverName": "GammaVault17",
+      "ipAddresses": ["192.168.100.100", "10.1.1.1"],
+      "osType": "Linux"
+    },
+    {
+      "id": 4,
+      "serverName": "DeltaCore09",
+      "ipAddresses": ["10.10.0.15"],
+      "osType": "MacOS"
+    },
+    {
+      "id": 5,
+      "serverName": "EpsilonBase88",
+      "ipAddresses": ["192.168.50.50", "172.16.3.3"],
+      "osType": "Windows"
+    }
+  ],
+  "Health": [
+
+    { "serverTime": "2024-10-24T08:00:00.000Z", "serverId": 1, "cpuUsage": 40, "ramUsage": 60, "partitions": [{ "partition": "part-1", "usage": 70 }] },
+    { "serverTime": "2024-10-25T08:00:00.000Z", "serverId": 1, "cpuUsage": 45, "ramUsage": 63, "partitions": [{ "partition": "part-1", "usage": 75 }] },
+    { "serverTime": "2024-10-26T08:00:00.000Z", "serverId": 1, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 80 }] },
+    { "serverTime": "2024-10-27T08:00:00.000Z", "serverId": 1, "cpuUsage": 55, "ramUsage": 67, "partitions": [{ "partition": "part-1", "usage": 85 }] },
+    { "serverTime": "2024-10-28T08:00:00.000Z", "serverId": 1, "cpuUsage": 60, "ramUsage": 68, "partitions": [{ "partition": "part-1", "usage": 70 }] },
+    { "serverTime": "2024-10-29T08:00:00.000Z", "serverId": 1, "cpuUsage": 65, "ramUsage": 70, "partitions": [{ "partition": "part-1", "usage": 75 }] },
+    { "serverTime": "2024-10-30T08:00:00.000Z", "serverId": 1, "cpuUsage": 70, "ramUsage": 72, "partitions": [{ "partition": "part-1", "usage": 80 }] },
+    { "serverTime": "2024-10-31T08:00:00.000Z", "serverId": 1, "cpuUsage": 72, "ramUsage": 75, "partitions": [{ "partition": "part-1", "usage": 85 }] },
+    { "serverTime": "2024-11-01T08:00:00.000Z", "serverId": 1, "cpuUsage": 75, "ramUsage": 77, "partitions": [{ "partition": "part-1", "usage": 90 }] },
+    { "serverTime": "2024-11-02T08:00:00.000Z", "serverId": 1, "cpuUsage": 80, "ramUsage": 80, "partitions": [{ "partition": "part-1", "usage": 95 }] },
+
+
+    { "serverTime": "2024-10-24T09:00:00.000Z", "serverId": 2, "cpuUsage": 30, "ramUsage": 55, "partitions": [{ "partition": "part-1", "usage": 50 }, { "partition": "part-2", "usage": 55 }]},
+    { "serverTime": "2024-10-25T09:00:00.000Z", "serverId": 2, "cpuUsage": 35, "ramUsage": 57, "partitions": [{ "partition": "part-1", "usage": 50.2 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-26T09:00:00.000Z", "serverId": 2, "cpuUsage": 40, "ramUsage": 60, "partitions": [{ "partition": "part-1", "usage": 51.2 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-27T09:00:00.000Z", "serverId": 2, "cpuUsage": 45, "ramUsage": 62, "partitions": [{ "partition": "part-1", "usage": 52.1 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 2, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+
+
+    { "serverTime": "2024-10-24T10:00:00.000Z", "serverId": 3, "cpuUsage": 20, "ramUsage": 45, "partitions": [{ "partition": "part-1", "usage": 40 }] },
+    { "serverTime": "2024-10-25T10:00:00.000Z", "serverId": 3, "cpuUsage": 25, "ramUsage": 47, "partitions": [{ "partition": "part-2", "usage": 42 }] },
+    { "serverTime": "2024-10-26T10:00:00.000Z", "serverId": 3, "cpuUsage": 30, "ramUsage": 50, "partitions": [{ "partition": "part-1", "usage": 45 }] },
+    { "serverTime": "2024-10-27T10:00:00.000Z", "serverId": 3, "cpuUsage": 35, "ramUsage": 52, "partitions": [{ "partition": "part-2", "usage": 48 }] },
+    { "serverTime": "2024-10-28T10:00:00.000Z", "serverId": 3, "cpuUsage": 40, "ramUsage": 55, "partitions": [{ "partition": "part-1", "usage": 50 }] },
+    { "serverTime": "2024-10-29T10:00:00.000Z", "serverId": 3, "cpuUsage": 45, "ramUsage": 57, "partitions": [{ "partition": "part-2", "usage": 53 }] },
+    { "serverTime": "2024-10-30T10:00:00.000Z", "serverId": 3, "cpuUsage": 50, "ramUsage": 60, "partitions": [{ "partition": "part-1", "usage": 55 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 3, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+    { "serverTime": "2024-10-31T10:00:00.000Z", "serverId": 4, "cpuUsage": 55, "ramUsage": 62, "partitions": [{ "partition": "part-2", "usage": 58 }] },
+
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] },
+    { "serverTime": "2024-10-28T09:00:00.000Z", "serverId": 5, "cpuUsage": 50, "ramUsage": 65, "partitions": [{ "partition": "part-1", "usage": 49 }, { "partition": "part-2", "usage": 55 }] }
+  ]
+}
