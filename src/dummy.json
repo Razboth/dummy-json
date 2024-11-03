@@ -1,0 +1,96 @@
+{
+    "Categories":[
+      {
+        "id": 1,
+        "name": "Cloudeka"
+      },
+      {
+        "id": 2,
+        "name": "Samrat"
+      }
+    ],
+    "Server": [
+      {
+        "id": 1,
+        "serverName": "000ANTASENA1",
+        "ipAddresses": [
+          "420.420.420.420",
+          "69.69.69.69",
+          "14.08.20.01",
+          "01.10.20.24"
+        ],
+        "categoryID": 1,
+        "osType": "Windows"
+      },
+      {
+        "id": 2,
+        "serverName": "000ANTASENA2",
+        "ipAddresses": [
+          "14.08.20.01",
+          "01.10.20.24"
+        ],
+        "categoryID": 1,
+        "osType": "Linux"
+      },
+      {
+        "id": 3,
+        "serverName": "000ANTASENA3",
+        "ipAddresses": [
+          "420.420.420.420"
+        ],
+        "categoryID": 2,
+        "osType": "Linux"
+      }
+    ],
+    "Health": [
+      {
+        "serverTime": "2024-10-23T16:18:12.465Z",
+        "serverId": 1,
+        "cpuUsage": 55,
+        "ramUsage": 22,
+        "partitions": [
+          {
+            "partition": "part-1",
+            "usage": 66
+          },
+          {
+            "partition": "part-2",
+            "usage": 66
+          }
+        ]
+      },
+      {
+        "serverTime": "2024-10-23T16:18:12.465Z",
+        "serverId": 2,
+        "cpuUsage": 75,
+        "ramUsage": 12,
+        "partitions": [
+          {
+            "partition": "part-1",
+            "usage": 66
+          },
+          {
+            "partition": "part-2",
+            "usage": 66
+          },
+          {
+            "partition": "part-3",
+            "usage": 67
+          }
+        ]
+      },
+      {
+        "serverTime": "2024-10-23T16:18:12.465Z",
+        "serverId": 3,
+        "cpuUsage": 1,
+        "ramUsage": 7,
+        "partitions": [
+          {
+            "partition": "part-1",
+            "usage": 66
+          }
+        ]
+      }
+    ]
+  }
+  
